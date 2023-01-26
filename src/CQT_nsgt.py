@@ -1,5 +1,5 @@
 import torch 
-from src.nsgt  import NSGT
+from src.nsgt.cp  import NSGT
 from src.nsgt  import LogScale 
 
 

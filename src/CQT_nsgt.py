@@ -1,6 +1,6 @@
 import torch 
 from src.nsgt.cp  import NSGT
-from src.nsgt  import LogScale 
+from src.nsgt.fscale  import LogScale 
 
 
 class CQT_cpx():

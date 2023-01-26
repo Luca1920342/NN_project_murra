@@ -2,7 +2,6 @@ import torch
 from src.nsgt.cp  import NSGT
 from src.nsgt.fscale  import LogScale 
 
-
 class CQT_cpx():
     def __init__(self,fmin, fbins, fs=44100, audio_len=44100, device="cpu", split_0_nyq=False):
         fmax=fs/2
